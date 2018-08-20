@@ -170,23 +170,3 @@ document.getElementById("icon_green").onclick = function (event) {
 
 // END VANILLA JS
 
-
-
-
-
-$(document).ready(function () {
-
-
-
-
-
-
-});
-
-// basic jQuery syntax:
-// $(selector).action()
-
-// jQuery sample code:
-// $("p").click(function(){
-//     $(this).hide();
-// });
