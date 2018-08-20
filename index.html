@@ -28,13 +28,13 @@
             </article>
 
             <main id="numbers">
-                <div id="number_match">
-                    <div id="matchlabel">match number</div>
-                    <h2>120</h2>
+                <div id="match_number_box">
+                    <div id="match_number_label">match number</div>
+                    <h2 id="match_number">120</h2>
                 </div>
-                <div id="number_play">
-                    <div id="yourlabel">your number</div>
-                    <h2>0</h2>
+                <div id="user_number_box">
+                    <div id="user_number_label">your number</div>
+                    <h2 id="user_number">0</h2>
                 </div>
             </main>
 
@@ -56,17 +56,17 @@
             <footer id="scorebox">
                 <div id="winbox" class="bottombox">
                     <h3>WINS:
-                        <span id="wins" class="btext">0</span>
+                        <span id="win_number" class="btext"></span>
                     </h3>
                 </div>
                 <div id="losebox" class="bottombox">
                     <h3>LOSSES:
-                        <span id="losses" class="btext">0</span>
+                        <span id="loss_number" class="btext"></span>
                     </h3>
                 </div>
                 <div id="messagebox" class="bottombox">
                     <h3>
-                        <span id="message" class="btext">click an icon</span>
+                        <span id="message" class="btext"></span>
                     </h3>
                 </div>
             </footer>
@@ -75,7 +75,12 @@
         </div>
     </div>
 
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
     <script src="assets/javascript/game.js"></script>
+
 </body>
 
 </html>
