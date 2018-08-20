@@ -1,8 +1,7 @@
 // JavaScript for jQuery game Crystal Collector 
 
 
-// vanilla JS code:
-
+// START VANILLA JS:
 
 // START INITIALIZE GAME PLAY VARIABLES WITH STARTING VALUES
 
@@ -112,9 +111,9 @@ let play = function () {
     };
 }
 
-// END DECLARE GAME PLAY FUNCTIONS
+// // END DECLARE GAME PLAY FUNCTIONS
 
-// SET EVENT LISTENERS TO LISTEN FOR ICON CLICKS WHICH CALL PLAY() FUNCTION
+// // SET EVENT LISTENERS TO LISTEN FOR ICON CLICKS WHICH CALL PLAY() FUNCTION
 
 document.getElementById("icon_red").onclick = function (event) {
 
@@ -167,17 +166,20 @@ document.getElementById("icon_green").onclick = function (event) {
 
 }
 
-
-
-
 // END EVENT LISTENER TO LISTEN FOR KEY PRESSES AND CALL PLAY() FUNCTION
 
+// END VANILLA JS
 
 
 
 
 
 $(document).ready(function () {
+
+
+
+
+
 
 });
 
