@@ -41,7 +41,7 @@ $(document).ready(function () {
     let $losses = 0;
     $("#loss_number").text($losses);
 
-    let $message = "Click an icon.";
+    let $message = "Choose wisely.";
     $("#the_message").text($message);
 
     // initialize $userClick function to hold value of current icon clicked
