@@ -22,7 +22,7 @@
 body {
     font-family: "system";
     background: rgb(157, 60, 14);
-    background: url(assets/images/white-wall.png), linear-gradient(167deg, rgba(157, 60, 14, 1) 0%, rgba(121, 114, 9, 1) 54%);
+    background: url(../images/white-wall.png), linear-gradient(167deg, rgba(157, 60, 14, 1) 0%, rgba(121, 114, 9, 1) 54%);
     height: 100vh;
     overflow: hidden;
 }
@@ -39,7 +39,7 @@ body {
     max-width: 450px;
     background-color: rgb(228, 214, 196);
     border-radius: 2.5rem;
-    background-image: url(assets/images/black-wall.png);
+    background-image: url(../images/black-wall.png);
     box-shadow: inset 0 0 35px rgb(72, 47, 20);
 }
 
@@ -160,7 +160,7 @@ h4 {
     display: flex;
     justify-content: center;
     height: 50px;
-    background-image: url(assets/images/grey-wall.png);
+    background-image: url(../images/grey-wall.png);
     width: 500px;
     left: -55px;
     position: relative;
