@@ -1,26 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-  }
-  html, body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
 /* Define the "system" font family */
+
 @font-face {
     font-family: 'cf_civilisation_mayaregular';
     src: url('fonts/cfcivilisationmaya-regular-webfont.eot');
-    src: url('fonts/cfcivilisationmaya-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/cfcivilisationmaya-regular-webfont.woff2') format('woff2'),
-         url('fonts/cfcivilisationmaya-regular-webfont.woff') format('woff'),
-         url('fonts/cfcivilisationmaya-regular-webfont.ttf') format('truetype'),
-         url('fonts/cfcivilisationmaya-regular-webfont.svg#cf_civilisation_mayaregular') format('svg');
+    src: url('fonts/cfcivilisationmaya-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/cfcivilisationmaya-regular-webfont.woff2') format('woff2'), url('fonts/cfcivilisationmaya-regular-webfont.woff') format('woff'), url('fonts/cfcivilisationmaya-regular-webfont.ttf') format('truetype'), url('fonts/cfcivilisationmaya-regular-webfont.svg#cf_civilisation_mayaregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -34,6 +19,11 @@
 
 body {
     font-family: "system";
+    /* background: linear-gradient(167deg, rgba(157, 60, 14, 1) 0%, rgba(121, 114, 9, 1) 29%, rgba(0, 212, 255, 1) 100%); */
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,0));
+    height: 100vh;
 }
 
 div {
@@ -41,14 +31,14 @@ div {
 }
 
 h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     text-align: center;
-    letter-spacing: .2rem;
-	color: #333;
+    letter-spacing: .1rem;
+    color: #333;
     opacity: .7;
     font-family: "cf_civilisation_mayaregular";
     font-weight: 100;
-	text-shadow: 0px 1px 1px #fff;
+    text-shadow: 0px 1px 1px #fff;
     margin-bottom: 0;
 }
 
@@ -56,10 +46,10 @@ p {
     font-size: 1.1rem;
     line-height: 1.4rem;
     letter-spacing: .02rem;
-	color: #222;
+    color: #222;
     opacity: .8;
-    padding: 0 6px;
-	text-shadow: 0px 1px 1px #ddd;
+    padding: 0 40px;
+    text-shadow: 0px 1px 1px #ddd;
 }
 
 #container {
@@ -71,11 +61,11 @@ p {
 #gamebox {
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
-    padding: 0 30px;
+    max-width: 420px;
+    /* padding: 0 30px; */
     background-color: rgb(228, 214, 196);
     border-radius: 2rem;
-    background-image: url(/assets/images/black-wall.png)
+    background-image: url(/assets/images/black-wall.png);
 }
 
 header {
