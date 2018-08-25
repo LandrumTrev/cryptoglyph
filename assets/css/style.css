@@ -21,7 +21,7 @@
 
 body {
     font-family: "system";
-    background: rgb(157, 60, 14);
+    /* background: rgb(157, 60, 14); */
     background: url(../images/white-wall.png), linear-gradient(167deg, rgba(157, 60, 14, 1) 0%, rgba(121, 114, 9, 1) 54%);
     height: 100vh;
     overflow: hidden;
