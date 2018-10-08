@@ -1,5 +1,7 @@
 # CryptoGlyph
-##### JavaScript and jQuery, GitHub. Randomized number matching game.
+##### Memory and math skills randomized-number matching game
+
+JavaScript, jQuery, CSS, HTML, custom web fonts, GitHub. App generates random play numbers and tracks player's score.
 
 Game assigns random numbers to the Match Number and each of four gyphs. The player must determine what numbers have been assigned to each of the four glyphs by clicking each at least once, and then use a combination of those numbers to exactly match the Match Number in order to win. Game tracks number of rounds won and lost, and a message area informs the player whether they have won or lost each round. 
 
